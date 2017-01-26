@@ -9,13 +9,17 @@
 import UIKit
 
 class DrawGraph: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
+    let graph = GraphMaker()
+  
+    
     override func draw(_ rect: CGRect) {
-        // Drawing code
+        graph.readFromFile()
+        
+        
+        graph.drawGraph(level: 0, size: 50, point1: CGPoint.init(x: 50, y: 20))
+        
+     
     }
-    */
+
 
 }

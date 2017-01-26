@@ -1,0 +1,21 @@
+PODS:
+  - Macaw (0.7.0):
+    - RxSwift (= 3.0.0-beta.1)
+    - SWXMLHash (~> 3.0.0)
+  - RxSwift (3.0.0-beta.1)
+  - SwiftGraph (1.2.0)
+  - SWXMLHash (3.0.3)
+
+DEPENDENCIES:
+  - Macaw (= 0.7.0)
+  - SwiftGraph
+
+SPEC CHECKSUMS:
+  Macaw: 82c48fe450f5e58117d22e28b09bab1e77097eff
+  RxSwift: 0823e8d7969c23bfa9ddfb2afa4881e424a1a710
+  SwiftGraph: 887151185d72dd7d5479af3a46273065a573cd40
+  SWXMLHash: 80d2529d74891bb2f15305a0b9e08f2a4f229ee7
+
+PODFILE CHECKSUM: 03e5f604a30c7bbbd653c6e80252a6610890ad43
+
+COCOAPODS: 1.1.1
